@@ -1,9 +1,9 @@
 class Cdtree < Formula
   desc "A dynamic tree-based directory navigation tool"
   homepage "https://github.com/shogoisaji/cdtree"
-  url "https://github.com/shogoisaji/cdtree/releases/download/v0.1.7/cdtree-mac.tar.gz"
-  sha256 "f2799a90210e5a8206635aa310bff5db0e7dfff761e9c862484c4aa464d8c84e"
-  version "0.1.7"
+  url "https://github.com/shogoisaji/cdtree/releases/download/v0.1.8/cdtree-mac.tar.gz"
+  sha256 "633185c907a71b38b98f628ce9ff7e481a1ac9fb75999f45b00e5628e66ec5f1"
+  version "0.1.8"
 
   def install
     bin.install "cdtree"
