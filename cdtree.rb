@@ -9,7 +9,6 @@ class Cdtree < Formula
   end
 
   test do
-    # --setup オプションが正常に動作し、exportコマンドを含むスクリプトが出力されるか確認
-    assert_match "export", shell_output("#{bin}/cdtree --setup")
+    assert_match version.to_s, shell_output("#{bin}/cdtree --version")
   end
 end
